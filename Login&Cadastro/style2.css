@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   }
+   body {
+     background-color: cyan;
+     font-family: 'Poppins', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   section {
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.41);
+     background-color: white;
+     width: 500px;
+     height: auto;
+     border-radius: 50px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 45px;
+     margin-right: 45px;
+   }
+   section h1 {
+     text-align: center;
+     color: black;
+     padding-top: 50px;
+     font-size: 50px;
+   }
+   section .border {
+     width: 120px;
+     height: 4px;
+     background-color: black;
+     margin: 60px auto;
+     margin-top: 10px;
+   } 
+   section .cadastro {
+    color: black;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 20px;
+  }
+  section .cadastro #user {
+    border-radius: 15px;
+    width: 290px;
+    height: 30px;
+    text-align: center;
+  }
+  section .cadastro #senha {
+    border-radius: 15px;
+    width: 290px;
+    height: 30px;
+    text-align: center;
+  }
+  section .cadastro #csenha {
+    border-radius: 15px;
+    width: 290px;
+    height: 30px;
+    text-align: center;
+  }
+  section .cadastro #email {
+    border-radius: 15px;
+    width: 290px;
+    height: 30px;
+    text-align: center;
+  }
+  section .cadastro #submit {
+    border-radius: 15px;
+    color: black;
+    background-color: cyan;
+    width: 290px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+  section .login2 {
+    text-align: center;
+  }

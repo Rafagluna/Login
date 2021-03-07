@@ -1,0 +1,65 @@
+* {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.41);
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+section h1 {
+  text-align: center;
+  color: black;
+  padding-top: 35px;
+  font-size: 50px;
+}
+section .border {
+  width: 120px;
+  height: 4px;
+  background-color: black;
+  margin: 60px auto;
+  margin-top: 10px;
+} 
+section .login {
+  color: black;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 25px;
+}
+section .login #nome {
+  border-radius: 15px;
+  padding: 7px 50px;
+  text-align: center;
+
+}
+section .login #number {
+  border-radius: 15px;
+  padding: 7px 50px;
+  text-align: center;
+}
+section .login .botao {
+  border-radius: 15px;
+  background-color: cyan;
+  color: black;
+  padding: 7px 115px;
+  font-family: 'Poppins', sans-serif;
+}
+section .login2 {
+  padding-top: 30px;
+  text-align: center;
+}
